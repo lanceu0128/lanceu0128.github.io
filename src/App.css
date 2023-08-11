@@ -1,0 +1,21 @@
+@font-face {
+    font-family: 'Monolog';
+    src: url('assets/Monolog-Bold.woff');
+}
+
+@font-face {
+    font-family: 'Cascadia';
+    src: url('assets/Cascadia.ttf');
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Monolog';
+}
+
+p, a {
+    font-family: 'Cascadia';
+}
+
+.full-height {
+    height: 100vh;
+}
