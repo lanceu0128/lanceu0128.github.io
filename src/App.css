@@ -1,3 +1,5 @@
+::-webkit-scrollbar {display:none;}
+
 @font-face {
     font-family: 'Monolog';
     src: url('assets/Monolog-Bold.woff');

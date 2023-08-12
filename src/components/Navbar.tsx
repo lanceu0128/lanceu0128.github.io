@@ -27,6 +27,11 @@ function Navbar() {
       >
         <ul className="navbar-nav">
           <li className="nav-item active">
+            <a className="nav-link" href="#big-hero">
+              Home
+            </a>
+          </li>
+          <li className="nav-item active">
             <a className="nav-link" href="#skills">
               Skills
             </a>

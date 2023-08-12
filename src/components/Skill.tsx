@@ -14,7 +14,7 @@ function Skill(props: SkillProps) {
 
   return (
     <div>
-      <p className="d-inline-block px-2 py-1 rounded" style={skillStyle}>
+      <p className="d-inline-block px-3 py-1 rounded-pill" style={skillStyle}>
         {props.children}
       </p>
     </div>
