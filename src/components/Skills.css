@@ -1,0 +1,13 @@
+/* Mobile Styling */
+.w-s-100 {
+    @media only screen and (max-width: 600px) {
+        width: 100% !important;
+    }
+}
+
+/* Desktop Styling */
+.w-m-75 {
+    @media only screen and (min-width: 768px) {
+        width: 75% !important;
+    }
+}
