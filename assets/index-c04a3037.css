@@ -1,4 +1,4 @@
-@charset "UTF-8";@font-face{font-family:Monolog;src:url(/assets/Monolog-Bold-8d12a304.woff)}@font-face{font-family:Cascadia;src:url(/assets/Cascadia-c0485d31.ttf)}h1,h2,h3,h4,h5,h6{font-family:Monolog}p,a{font-family:Cascadia}.full-height{height:100vh}/*!
+@charset "UTF-8";@font-face{font-family:Monolog;src:url(/assets/Monolog-Bold-8d12a304.woff)}@font-face{font-family:Cascadia;src:url(/assets/Cascadia-c0485d31.ttf)}h1,h2,h3,h4,h5,h6{font-family:Monolog}p,a{font-family:Cascadia}.full-height{height:100vh}@media only screen and (max-width: 600px){.w-s-100{width:100%!important}}@media only screen and (min-width: 768px){.w-m-75{width:75%!important}}/*!
  * Bootstrap  v5.3.1 (https://getbootstrap.com/)
  * Copyright 2011-2023 The Bootstrap Authors
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
