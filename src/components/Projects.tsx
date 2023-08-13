@@ -8,7 +8,7 @@ function Projects() {
 
       <div className="d-flex flex-column flex-md-row justify-content-around align-items-md-start align-items-center ">
         <Project
-          image="src/assets/3dvissys.png"
+          image={"./3dvissys.png"}
           title="3D-VisSys"
           subtitle="CISESS Summer Internship"
           desc="An open-source web application that creates interactive 3D rainstorm visualizations in near-real-time"
@@ -37,7 +37,7 @@ function Projects() {
           </Skill>
         </Project>
         <Project
-          image="src/assets/goray.png"
+          image={"./goray.png"}
           title="GoRay"
           subtitle="Personal Project"
           desc="A 3D raytracer capable of rendering lighting, reflections, shadows, and cel-shading built in Golang"
@@ -48,7 +48,7 @@ function Projects() {
           </Skill>
         </Project>
         <Project
-          image="src/assets/randomforest.png"
+          image={"./randomforest.png"}
           title="Stroke Classifier"
           subtitle="Personal Project"
           desc="A Random Forest Classifier model trained and tuned to identify patients who will have a stroke"
