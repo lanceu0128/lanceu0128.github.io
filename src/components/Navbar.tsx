@@ -1,4 +1,6 @@
 import { useState } from "react";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faBars } from "@fortawesome/free-solid-svg-icons";
 
 function Navbar() {
   const [isCollapsed, setIsCollapsed] = useState(true);
@@ -17,7 +19,7 @@ function Navbar() {
         aria-expanded={!isCollapsed}
         aria-label="Toggle navigation"
       >
-        <span className="navbar-toggler-icon"></span>
+        <FontAwesomeIcon icon={faBars} />
       </button>
       <div
         className={`collapse navbar-collapse${
@@ -37,18 +39,13 @@ function Navbar() {
             </a>
           </li>
           <li className="nav-item active">
-            <a className="nav-link" href="/">
+            <a className="nav-link" href="#projects">
               Projects
             </a>
           </li>
           <li className="nav-item active">
-            <a className="nav-link" href="/">
+            <a className="nav-link" href="#experience">
               Experience
-            </a>
-          </li>
-          <li className="nav-item active">
-            <a className="nav-link" href="/">
-              Resume
             </a>
           </li>
           <li className="nav-item active">

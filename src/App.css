@@ -18,6 +18,39 @@ p, a {
     font-family: 'Cascadia';
 }
 
+a {
+    text-decoration: none !important;
+    color: black !important
+}
+
 .full-height {
-    height: 100vh;
+    min-height: 100vh;
+    height: auto;
+}
+
+/* Mobile Styling */
+.w-sm-100 {
+    @media only screen and (max-width: 600px) {
+        width: 100% !important;
+    }
+}
+
+.w-sm-75 {
+    @media only screen and (max-width: 600px) {
+        width: 75% !important;
+    }
+}
+
+/* Desktop Styling */
+.w-md-25 {
+    @media only screen and (min-width: 768px) {
+        width: 25% !important;
+    }
+}
+
+/* Desktop Styling */
+.w-md-75 {
+    @media only screen and (min-width: 768px) {
+        width: 75% !important;
+    }
 }
