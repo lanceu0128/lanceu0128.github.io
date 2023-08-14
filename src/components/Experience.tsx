@@ -16,7 +16,7 @@ function Experience() {
   return (
     <div id="experience" className="full-height mb-0 pb-0">
       <h1 className="text-center py-4">Experience</h1>
-      <VerticalTimeline lineColor="#212529">
+      <VerticalTimeline lineColor="#ddd">
         <VerticalTimelineElement
           className="vertical-timeline-element--work"
           date="Summer 2023 - Fall 2023"
