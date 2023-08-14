@@ -14,7 +14,7 @@ h1, h2, h3, h4, h5, h6 {
     font-family: 'Monolog';
 }
 
-p, a {
+p, a, .vertical-timeline-element-date {
     font-family: 'Cascadia';
 }
 

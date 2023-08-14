@@ -1,6 +1,7 @@
 import { useState } from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faBars } from "@fortawesome/free-solid-svg-icons";
+import { faBars, faEnvelope } from "@fortawesome/free-solid-svg-icons";
+import { faLinkedin } from "@fortawesome/free-brands-svg-icons";
 import "../App.css";
 
 function Navbar() {
@@ -57,13 +58,30 @@ function Navbar() {
             </a>
           </li>
           <li className="nav-item active">
-            <a className="nav-link" href="#experience">
+            <a
+              className="nav-link"
+              href="#experience"
+              data-to-scrollspy-id="experience"
+            >
               Experience
             </a>
           </li>
           <li className="nav-item active">
-            <a className="nav-link" href="/">
-              Contact
+            <a
+              className="nav-link"
+              href="https://www.linkedin.com/in/lanceu/"
+              target="_blank"
+            >
+              <FontAwesomeIcon icon={faLinkedin} />
+            </a>
+          </li>
+          <li className="nav-item active">
+            <a
+              className="nav-link"
+              href="mailto: lanceu0128@gmail.com"
+              target="_blank"
+            >
+              <FontAwesomeIcon icon={faEnvelope} />
             </a>
           </li>
         </ul>
