@@ -50,6 +50,10 @@ p, a, .vertical-timeline-element-date {
     }
 }
 
+#arrow {
+    color: rgba(33,37,41,255) !important;
+}
+
 .card {
     border: 0 !important;
     box-shadow: 0 3px 0 #ddd;

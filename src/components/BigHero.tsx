@@ -10,7 +10,9 @@ function BigHero() {
     >
       <h1 className="mb-3">Lance Uymatiao</h1>
       <p className="mb-3">Studying Computer Science & Philosophy @ UMD</p>
-      <FontAwesomeIcon className="mt-3" icon={faChevronDown} />
+      <a id="arrow" href="#skills">
+        <FontAwesomeIcon className="mt-3" icon={faChevronDown} />
+      </a>
     </div>
   );
 }
