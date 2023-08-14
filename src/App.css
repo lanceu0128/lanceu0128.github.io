@@ -55,6 +55,8 @@ p, a {
 }
 
 .active-scroll-spy { 
-    text-decoration: underline !important;
-    color: black !important;
-  }
+    @media screen and (min-width: 768px) {
+        text-decoration: underline !important;
+        color: black !important;
+    }
+}
