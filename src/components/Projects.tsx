@@ -26,6 +26,9 @@ function Projects() {
           <Skill backgroundColor="#61DBFB" textColor="black">
             React
           </Skill>
+          <Skill backgroundColor="#563d7c" textColor="white">
+            Bootstrap
+          </Skill>
           <Skill backgroundColor="#150458" textColor="white">
             Pandas
           </Skill>

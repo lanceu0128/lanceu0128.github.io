@@ -15,7 +15,7 @@ function Skills() {
     >
       <h1 className="text-center py-4">Tech Stack</h1>
 
-      <ul className="list-group list-group-horizontal-md mx-auto">
+      <ul className="list-group list-group-horizontal-md mx-auto my-0">
         <li className="list-group-item border-top-0 border-bottom-0 w-s-100 w-md-75 text-center">
           <h3>
             <FontAwesomeIcon icon={faCode} />

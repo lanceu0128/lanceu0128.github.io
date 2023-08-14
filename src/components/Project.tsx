@@ -23,7 +23,7 @@ function Project(props: ProjectProps) {
       <div className="card-body">
         <div className="d-flex justify-content-between align-items-center">
           <h3 className="card-title mb-0">{props.title}</h3>
-          <a href={props.link} target="_blank">
+          <a className="link-primary" href={props.link} target="_blank">
             <h3>
               <FontAwesomeIcon icon={faGithub} />
             </h3>

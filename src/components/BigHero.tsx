@@ -6,7 +6,7 @@ function BigHero() {
   return (
     <div
       id="big-hero"
-      className="px-5 text-center text-dark full-height d-flex flex-column justify-content-center align-items-center "
+      className="px-5 text-center text-dark full-height d-flex flex-column justify-content-center align-items-center bg-light"
     >
       <h1 className="mb-3">Lance Uymatiao</h1>
       <p className="mb-3">Studying Computer Science & Philosophy @ UMD</p>
