@@ -101,9 +101,16 @@ function Skills() {
             </Skill>
           </div>
           <h5 className="pt-2">Backend</h5>
-          <Skill backgroundColor="black" textColor="white">
-            Flask
-          </Skill>
+          <div>
+            <Skill backgroundColor="black" textColor="white">
+              Flask
+            </Skill>
+          </div>
+          <div>
+            <Skill backgroundColor="#512bd4" textColor="white">
+              .NET
+            </Skill>
+          </div>
         </li>
         <li className="list-group-item border-top-0 border-bottom-0 border-right-0 w-s-100 w-md-75 text-center">
           <h3>
