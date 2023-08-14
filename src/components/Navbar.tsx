@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faBars, faEnvelope } from "@fortawesome/free-solid-svg-icons";
-import { faLinkedin } from "@fortawesome/free-brands-svg-icons";
+import { faLinkedin, faGithub } from "@fortawesome/free-brands-svg-icons";
 import "../App.css";
 
 function Navbar() {
@@ -73,6 +73,15 @@ function Navbar() {
               target="_blank"
             >
               <FontAwesomeIcon icon={faLinkedin} />
+            </a>
+          </li>
+          <li className="nav-item active">
+            <a
+              className="nav-link"
+              href="https://www.github.com/lanceu0128/"
+              target="_blank"
+            >
+              <FontAwesomeIcon icon={faGithub} />
             </a>
           </li>
           <li className="nav-item active">
