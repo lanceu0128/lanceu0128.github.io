@@ -1,6 +1,7 @@
 import { useState } from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faBars } from "@fortawesome/free-solid-svg-icons";
+import "../App.css";
 
 function Navbar() {
   const [isCollapsed, setIsCollapsed] = useState(true);
@@ -29,17 +30,29 @@ function Navbar() {
       >
         <ul className="navbar-nav">
           <li className="nav-item active">
-            <a className="nav-link" href="#big-hero">
+            <a
+              className="nav-link"
+              href="#big-hero"
+              data-to-scrollspy-id="big-hero"
+            >
               Home
             </a>
           </li>
           <li className="nav-item active">
-            <a className="nav-link" href="#skills">
+            <a
+              className="nav-link"
+              href="#skills"
+              data-to-scrollspy-id="skills"
+            >
               Skills
             </a>
           </li>
           <li className="nav-item active">
-            <a className="nav-link" href="#projects">
+            <a
+              className="nav-link"
+              href="#projects"
+              data-to-scrollspy-id="projects"
+            >
               Projects
             </a>
           </li>

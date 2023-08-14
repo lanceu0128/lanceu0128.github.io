@@ -13,7 +13,7 @@ interface ProjectProps {
 
 function Project(props: ProjectProps) {
   return (
-    <div className="card w-sm-75 w-md-25 my-5">
+    <div className="card w-sm-75 w-md-25 my-4">
       <img
         className="card-img-top w-100"
         src={props.image}
@@ -21,16 +21,14 @@ function Project(props: ProjectProps) {
         style={{ backgroundColor: "black" }}
       ></img>
       <div className="card-body">
-        <a
-          href={props.link}
-          target="_blank"
-          className="d-flex justify-content-between align-items-center"
-        >
+        <div className="d-flex justify-content-between align-items-center">
           <h3 className="card-title mb-0">{props.title}</h3>
-          <h3>
-            <FontAwesomeIcon icon={faGithub} />
-          </h3>
-        </a>
+          <a href={props.link} target="_blank">
+            <h3>
+              <FontAwesomeIcon icon={faGithub} />
+            </h3>
+          </a>
+        </div>
         <h6>{props.subtitle}</h6>
         <p className="card-text">{props.desc}</p>
         <div>{props.children}</div>

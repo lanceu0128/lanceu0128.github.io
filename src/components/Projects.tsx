@@ -4,7 +4,7 @@ import Skill from "./Skill";
 function Projects() {
   return (
     <div id="projects" className="full-height">
-      <h1 className="text-center py-5">Projects</h1>
+      <h1 className="text-center py-4">Projects</h1>
 
       <div className="d-flex flex-column flex-md-row justify-content-around align-items-md-start align-items-center ">
         <Project
@@ -41,7 +41,7 @@ function Projects() {
           title="GoRay"
           subtitle="Personal Project"
           desc="A 3D raytracer capable of rendering lighting, reflections, shadows, and cel-shading built in Golang"
-          link="github.com/lanceu0128/goray"
+          link="https://github.com/lanceu0128/goray"
         >
           <Skill backgroundColor="#00ADD8" textColor="white">
             Go
@@ -52,7 +52,7 @@ function Projects() {
           title="Stroke Classifier"
           subtitle="Personal Project"
           desc="A Random Forest Classifier model trained and tuned to identify patients who will have a stroke"
-          link="github.com/lanceu0128/stroke_prediction"
+          link="https://github.com/lanceu0128/stroke_prediction"
         >
           <Skill backgroundColor="#ffde57" textColor="black">
             Python
